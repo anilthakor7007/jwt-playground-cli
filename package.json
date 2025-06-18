@@ -1,5 +1,5 @@
 {
-  "name": "jwt-playground-cli",         
+  "name": "jwt-playground-cli",
   "version": "1.0.0",
   "description": "A CLI tool to decode and verify JWT tokens securely in your terminal.",
   "main": "dist/index.js",
@@ -35,6 +35,7 @@
     "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {
+    "@types/node": "^24.0.3",
     "tsup": "^7.2.0",
     "typescript": "^5.4.0"
   }
