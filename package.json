@@ -1,0 +1,41 @@
+{
+  "name": "jwt-playground-cli",         
+  "version": "1.0.0",
+  "description": "A CLI tool to decode and verify JWT tokens securely in your terminal.",
+  "main": "dist/index.js",
+  "bin": {
+    "jwt-playground": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --minify --dts",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "jwt",
+    "cli",
+    "jwt-decode",
+    "token",
+    "jsonwebtoken",
+    "jwt verify",
+    "jwt playground",
+    "jwt tools",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Anil Thakor",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anilthakor7007/jwt-playground-cli"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clipboardy": "^3.0.0",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.4.0"
+  }
+}
